@@ -1,0 +1,254 @@
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    .container {
+      height: 100vh;
+      width: 100%;
+      background: url(image/bg.jpg);
+      background-size: cover;
+      overflow: scroll;
+    }
+
+
+
+    .navbar {
+      height: 50px;
+      width: 100%;
+      border-top: 1px solid gray;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #36454F;
+
+    }
+
+    .menue {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .menue a {
+      color: #fff;
+      padding: 3px 3px;
+      text-decoration: none;
+      font-weight: 400;
+
+
+    }
+
+    .menue a:hover {
+
+      color: #000;
+
+
+    }
+
+    a.active {
+      border-top: 2px solid gray;
+      border-bottom: 2px solid gray;
+    }
+
+    .logo h2 {
+      color: #ddd;
+      font-family: sans-serif;
+    }
+
+
+    .home-bar {
+      margin: 100px auto;
+      border: 4px solid yellow;
+      border-radius: 4px;
+      width: 40%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .hero-section {
+      margin: 20px auto;
+      width: 90%;
+
+    }
+
+    .rockets {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+    }
+
+    .rocket {
+      height: 180px;
+      width: 100%;
+      border: 4px solid yellow;
+      border-radius: 4px;
+      display: flex;
+      gap: 10px;
+      flex-direction: row;
+      background-color: #26282A;
+
+
+    }
+
+    .rocket img {
+      height: 100%;
+      width: 180px;
+    }
+
+    .content h2 {
+      margin: 6px 2px;
+      color: #fff;
+    }
+
+    .content p {
+      color: #fff;
+    }
+
+    .btn {
+      background-color: yellow;
+      color: #000;
+      font-weight: 600;
+      margin: 1px 2px;
+      padding: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+      transform: translateZ(10px);
+    }
+
+    .btn:hover {
+      background-color: rgba(90, 90, 5, 0.1);
+      transform: translateZ(-5px);
+      color: #fff;
+    }
+
+    /*      style sheet of the mission pages */
+
+    .mission-container {
+
+      margin: 20px auto;
+      width: 90%;
+      height: auto;
+      /*         border: 2px solid green; */
+      display: flex;
+      justify-content: center;
+    }
+
+    table {
+      box-sizing: border-box;
+      border: none;
+    }
+
+    table th {
+      border: 1px solid yellow;
+      color: yellow;
+      font-weight: 600;
+    }
+
+    table td {
+      border: 1px solid yellow;
+    }
+
+    .btn-1 {
+      background-color: rgba(40, 224, 40, 0.628);
+      color: #fff;
+      margin: 1px 2px;
+      padding: 5px;
+      border: 2px solid rgba(40, 224, 40, 0.628);
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-1:hover {
+
+      border: 2px solid rgba(40, 224, 40, 0.628);
+      color: #fff;
+      background-color: transparent;
+
+    }
+
+    .btn-2 {
+      background-color: transparent;
+      color: darkgoldenrod;
+      border: 2px solid darkgoldenrod;
+      margin: 1px 2px;
+      font-weight: 600;
+      padding: 5px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn-2:hover {
+
+      color: #fff;
+      background-color: darkgoldenrod;
+
+    }
+
+    table tr p {
+      color: #fff;
+    }
+
+    table tr td h3 {
+      color: #fff;
+    }
+
+    /*    my pfofile css style     */
+
+    .my-profile {
+      height: 400px;
+      width: 90%;
+      margin: 40px auto;
+      display: flex;
+      justify-content: space-around;
+
+    }
+
+
+    .mission-section p {
+      height: 20px;
+      width: 220px;
+      margin: 0;
+      padding: 10px;
+      color: #fff;
+      border: 1px solid yellow;
+      border-top: none;
+      text-align: left;
+
+    }
+
+    .mission-section h2 {
+      height: 20px;
+      width: 220px;
+      margin: 0;
+      color: yellow;
+      padding: 10px 10px 15px 10px;
+      border: 1px solid yellow;
+      text-align: left;
+
+
+    }
+
+    .my-rocket h2 {
+      height: 20px;
+      width: 220px;
+      margin: 0;
+      padding: 10px 10px 15px 10px;
+      border: 1px solid yellow;
+      color: yellow;
+      text-align: left;
+
+    }
